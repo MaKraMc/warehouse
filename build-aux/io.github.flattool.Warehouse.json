@@ -11,8 +11,8 @@
         "--socket=wayland",
         "--talk-name=org.freedesktop.Flatpak",
         "--filesystem=/var/lib/flatpak/:ro",
-        "--filesystem=~/.local/share/flatpak/:ro",
-        "--filesystem=~/.var/app/",
+        "--filesystem=xdg-data/flatpak/:ro",
+        "--filesystem=home/.var/app/",
         "--filesystem=host-etc"
     ],
     "cleanup" : [
